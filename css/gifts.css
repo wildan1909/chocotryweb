@@ -1,0 +1,313 @@
+
+/*
+project: Design Web Template 
+Cascade Style Sheets file
+*/
+
+#art-main{
+background: #f0ead2 scroll; 
+margin:0 auto; 
+padding: 0;
+box-sizing: border-box;
+font-size: 14px; 
+font-family: Montserrat, 'Arial Unicode MS', Arial, Helvetica, sans-serif, Sans-Serif; 
+position: relative; 
+width: 100%; 
+min-height: 100%; 
+left: 5; 
+top: 5; 
+cursor:default;
+overflow:hidden;
+
+} 
+h1{
+font-size: 40px;
+font-family: fantasy;
+margin-left: -12%;
+color: #6c584c;
+}
+h2{
+font-size: 16px;
+font-family:Arial, Arial, Helvetica, sans-serif, sans-serif;
+color: #6c584c;
+} 
+h3{
+font-size: 14px;
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+color: #6c584c;
+}
+
+.art-nav{ /* navigasi atas */ 
+background: #a98467; 
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+color: #FCFCFC;
+width: 100%;
+padding: 1px;
+margin:0 auto; 
+position: relative;
+height: 75px;
+z-index: 100;
+font-size: 0; 
+box-shadow: 0 5px 7px -5px #222;
+} 
+.topmenu {
+height: 16px;
+margin: 0px;
+padding: 0px;
+}
+.logo img{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+}
+.menu-atas{
+  float: right;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 22%;
+  position: relative;
+}
+.menu-atas p{
+color: #f0ead2;
+margin-top: -3.25em;
+margin-bottom: auto;
+padding: 0;
+font-size: 14px;
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif
+
+}
+.menu-atas a{
+color: #f0ead2;
+text-decoration: none;
+}
+
+.menu-atas a:hover{
+color: #adc178;
+text-decoration :none;
+}
+.menu-atas span{
+margin-right: 10px;
+}
+
+.topmenu input[type=text] {
+  float: right;
+  width: 300px;
+  padding: 6px;
+  margin-top: -3.25em;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  border-radius: 25px;
+}
+.art-header{ 
+  max-width: 600px;
+  max-width: 1000px;
+  margin: 0 auto 0; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.art-header .banner img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.menumid { /* menu web */
+height: 40px; 
+background: #adc178;
+background: -webkit-linear-gradient(top, #adc178 0%, 100%); 
+background: -o-linear-gradient(top, #adc178 0%, 100%);
+background: -moz-linear-gradient(top, #adc178 0%, 100%); 
+background: -webkit-gradient (linear, left top, left bottom, color-stop(0%, #adc178), color-stop(100%)); 
+background: -ms-linear-gradient(top, #adc178 0%,  100%); 
+background: linear-gradient(top, #adc178 0%, 100%);
+width: auto;
+margin-left: 2%;
+margin-right: 2%;
+vertical-align:middle;
+} 
+.menumid ul {
+list-style: none;
+}
+.menumid ul { 
+float: left;
+} 
+.menumid > ul > li {
+float: left;
+}
+.menumid > ul > li > a {
+color: #6c584c;
+font-size: 11px;
+font-weight:bold; 
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+text-decoration: none;
+line-height:12px;
+margin: 5px 30px 0 5px;
+}
+.menumid > ul > li:hover > a {
+text-decoration:none;
+color:#f0ead2;
+}
+
+.art-sheet{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 75%;
+background: #FCFCFC;
+border-radius:0px; 
+padding:10px 10px 10px 10px;
+margin-left: 2%;
+margin-right: 2%;
+position:relative;
+cursor: auto; 
+width: auto; 
+z-index: auto !important;
+}
+
+
+*{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+body {
+  font-family: Montserrat, 'Arial Unicode MS', Arial, Helvetica, sans-serif, Sans-Serif; 
+  min-height: 1000px;
+}
+#wrap{
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.columns_2 figure{
+   width:49%;
+   margin-right:1%;
+}
+.columns_2 figure:nth-child(2){
+    margin-right: 0;
+}
+.columns_3 figure{
+   width:32%;
+   margin-right:1%;
+}
+.columns_3 figure:nth-child(3){
+    margin-right: 0;
+}
+.columns_4 figure{
+   width:24%;
+   margin-right:1%;
+}
+.columns_4 figure:nth-child(4){
+    margin-right: 0;
+}
+.columns_5 figure{
+   width:19%;
+   margin-right:1%;
+}
+.columns_5 figure:nth-child(5){
+    margin-right: 0;
+}
+
+div#columns figure {
+    display: inline-block;
+    background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0 0px 15px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    padding: 15px;
+    padding-bottom: 5px;
+    background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+div#columns figure img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+  color: #444;
+  line-height: 1.5;
+  height:60px;
+  font-weight:600;
+  text-overflow:ellipsis;
+}
+
+a.button{
+  padding:10px;
+  background:#adc178;
+  margin:10px;
+  display:block;
+  text-align:center;
+  color:#fff;
+  transition:all 1s linear;
+  text-decoration:none;
+  text-shadow:1px 1px 3px rgba(0,0,0,0.3);
+  border-radius:3px;
+  border-bottom:3px solid #92a360;
+  box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+}
+a.button:hover{
+  background:#92a360;
+  border-bottom:3px solid #adc178;
+  color:#f1f2f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.art-footer {/* footer */ 
+background: #a98467; 
+margin:40px auto 0; 
+position: relative; 
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif; 
+text-align: center; 
+width: 100%; 
+height:50px; 
+border-radius: 0px; 
+box-shadow: 0 -7px 7px -7px #888; 
+padding: 20px 0 10px 10px;
+}
+.art-footer a, .art-footer a:link, .art-footer a:visited, .art-footer a:hover{ 
+background: #a98467; 
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+padding: 15px;
+font-size: 12px;
+color: #f0ead2;
+text-decoration: none;
+}
+.art-footer a:hover{
+color: #adc178;
+font-size: 12px; 
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif; 
+text-decoration: none;
+}
+.art-footer p{
+color: #f0ead2;
+font-size: 12px; 
+font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+}

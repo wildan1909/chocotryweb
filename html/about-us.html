@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<title>WEB DESIGN Belajar Membuat Tampilan Website</title> 
+	<link rel="stylesheet" href="../css/about-us.css" media="screen">
+</head>
+<body>
+    <div id="art-main">
+		<nav class="art-nav">
+			<div class="topmenu">
+				<div class="logo">
+					<a href="../html/main-menu.html">
+					<img src="../gambar/logo2hijau.png" style="max-width: 95% !important; max-height: 95% !important;">
+					</a>
+					</div>
+					<div class="menu-atas">
+					<p>
+					<span><a href="main-menu.html">HOME</a></span>
+					<span><a href="../index.html">LOG IN</a></span>
+					</p>
+					</div>
+					<input type="text" placeholder="Search..">
+				</div>
+			</nav>
+			<div class="art-header">
+				<div class="banner">
+					<img class="mySlides" src="../gambar/1.png" style="width:100%">
+					<img class="mySlides" src="../gambar/3.png" style="width:100%">
+					<img class="mySlides" src="../gambar/4.png" style="width:100%">
+				</div>
+				  
+				  <script>
+				  var myIndex = 0;
+				  carousel();
+				  
+				  function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					  x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 4000); // Change image every 4 seconds
+				  }
+				  </script>
+			</div>
+			<div class="menumid">
+				<ul>
+					<li><a href="main-menu.html">PRODUCT</a></li>
+					<li><a href="gifts.html">GIFTS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="procedure.html">PROCEDURE</a></li>
+					<li><a href="about-us.html">ABOUT US</a></li>
+				</ul>
+		</div>
+		<div class="art-sheet">
+            <article>
+                <h2> ABOUT US </h2>
+                <p style="text-align: justify;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non tincidunt arcu. Curabitur consectetur sed leo vel suscipit. Vestibulum at aliquet leo. Donec placerat elit ipsum. Sed maximus nisi nec sapien dictum, nec tincidunt libero blandit. Vivamus sagittis elit vel ante imperdiet, eget accumsan urna scelerisque. Ut vel blandit eros. Curabitur vestibulum eros eu pretium vulputate. Donec non enim elementum, fermentum magna eu, commodo neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+                <p style="text-align: justify;">
+                    Nunc nec luctus ex. Donec ornare urna ante, ac faucibus turpis lacinia nec. Suspendisse et libero aliquam, fringilla orci eu, elementum ligula. Maecenas accumsan elit et elementum fringilla. Pellentesque euismod ante vitae felis efficitur, ac sodales metus elementum. Fusce rutrum lacus nulla, eu posuere nunc lobortis in. Pellentesque ornare feugiat volutpat. Pellentesque vel quam quis quam hendrerit consequat nec sit amet est. Sed sit amet efficitur justo, eu semper purus. Donec maximus malesuada molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur convallis laoreet velit, in finibus sapien facilisis eget.
+                </p>
+                
+                <blockquote>
+                    <i>
+                        <b>Sed eu hendrerit purus. Aliquam eu ante velit. Proin vestibulum, purus at imperdiet consequat, libero augue finibus sapien, lobortis volutpat quam justo et nunc. Morbi sit amet metus ipsum. Quisque nibh dui, ullamcorper sit amet rhoncus nec, condimentum id elit. Suspendisse eget odio diam. Sed consectetur odio arcu, a pretium urna dignissim id. Duis facilisis luctus aliquam. Vivamus vitae nunc cursus, tristique sem vitae, ullamcorper massa. Suspendisse sit amet tincidunt sapien.</b>
+                    </i> 
+                </blockquote>
+                <p style="text-align: justify;">
+                    Nulla enim ante, elementum semper consectetur sed, dignissim sed dolor. Morbi id turpis blandit, venenatis sapien non, venenatis lacus. Donec quis ornare odio. Praesent condimentum nec ipsum id consequat. Aenean maximus, erat nec convallis faucibus, justo nisi rhoncus nunc, sed sagittis nisl sem eget ligula. Sed neque nunc, consequat et dignissim id, rhoncus iaculis massa. Sed sodales interdum dapibus. Mauris eu tincidunt mi, sed accumsan sem. Cras laoreet eu elit non dapibus. Nunc ornare laoreet nulla semper convallis. Donec ut mattis lacus. Donec sit amet ligula sed sapien semper hendrerit. Donec lacus ex, fringilla et dapibus quis, laoreet vitae ex. Ut viverra diam odio, ac interdum nisl vulputate ut.                </p>
+				</p>
+				<p id="p1" style="text-align: justify;">
+					Praesent hendrerit nisi vitae sapien finibus ultrices. Mauris lacinia posuere justo, in tempus risus rhoncus quis. Cras condimentum enim at neque ornare mattis. Duis odio ex, tincidunt vitae dignissim eget, fringilla nec libero. Cras sodales blandit turpis, et tempor mauris varius non. Sed sodales augue nec turpis posuere luctus. Nam sed suscipit ligula. Sed aliquam elementum neque, at laoreet ipsum. Cras quis lobortis neque. Curabitur ac tincidunt lorem.
+				</p>
+				<p id="p2" style="text-align: justify;">
+					Quisque urna orci, posuere vitae lectus non, faucibus eleifend mi. Curabitur gravida elementum leo, nec auctor orci laoreet ut. Mauris hendrerit nisl consectetur mauris feugiat sollicitudin. Curabitur id ipsum eu risus consectetur euismod non eget nunc. Cras accumsan velit ut purus euismod, id maximus nisl lacinia. In iaculis quam a maximus aliquet. Vivamus pharetra urna ultrices felis aliquet venenatis. Nam eleifend vulputate nulla eget interdum. Morbi imperdiet, tortor nec consequat convallis, arcu nisl interdum mi, non mollis elit nisi id dui. Proin euismod posuere ante, id condimentum nunc ultrices sed. Maecenas lacinia neque in augue consectetur, sagittis convallis dolor vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur tempor non neque quis sollicitudin.
+				</p>
+				<p id="p1" style="text-align: justify;">
+					Aliquam aliquam sem velit, at aliquet erat rutrum eu. Cras odio ex, vestibulum vel lacus ac, aliquet semper risus. Proin bibendum est ac erat varius, vitae dictum arcu congue. Suspendisse nulla nisl, lacinia eu tincidunt at, dictum vel lacus. Duis vel accumsan enim, nec facilisis dui. Quisque vehicula ut velit in accumsan. Praesent fermentum in augue vitae pulvinar. Maecenas lacinia magna eget pulvinar sollicitudin. Aenean ornare velit quis blandit vestibulum. Duis sed tellus vitae nulla semper varius et ac risus. Curabitur pretium, neque at scelerisque tempor, metus purus rutrum mi, eget tempor diam odio nec massa.				
+				</p>
+				<p style="text-align: justify;">
+					Sed vestibulum arcu sed sollicitudin ullamcorper. Quisque libero ligula, luctus et ipsum eget, rutrum commodo ligula. Quisque a magna lacus. Integer hendrerit, nunc sed cursus varius, lorem purus posuere purus, vitae semper est lectus sed justo. Pellentesque nec aliquet ex, auctor vehicula quam. Maecenas quis luctus diam, eu rutrum lorem. Proin mollis velit sed mauris gravida viverra. Nam lacinia tellus turpis, et hendrerit eros aliquam id. Curabitur finibus fringilla justo, non cursus est ornare quis.				</p>
+				<br>
+				<h3>IKHTISAR KEUANGAN PERUSAHAAN</h3>
+				<table>
+					<caption><b>Informasi Posisi Keuangan</b></caption>
+					<tr>
+						<th rowspan="2">Keterangan</th>
+						<th colspan="3">Tahun</th>
+					  </tr>
+					  <tr>
+						<th>2021</th>
+						<th>2020</th>
+						<th>2019</th>
+					  </tr>
+					  <tr>
+						<td id="left-side"><b>Aset</b></td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Aset Lancar</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Aset Tidak Lancar</td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+					  <tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					  </tr>
+					  <tr>
+						<td id="left-side"><b>Liabilitas</b></td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side"> Liabilitas Lancar</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side"> Liabilitas Tidak Lancar</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					  </tr>
+					  <tr>
+						<td id="left-side"><b>Ekuitas</b></td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					  </tr>
+					  <tr>
+						<td id="left-side"><b>Jumlah Aset</b></td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Modal Kerja Bersih</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Total Investasi</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side"> Jumlah Saham (Lembar)</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+				</table>
+				<br>
+				<br>
+				<br>
+				<table>
+					<caption><b>Rasio Keuangan Penting</b></caption>
+					<tr>
+						<th rowspan="2">Keterangan</th>
+						<th colspan="3">Tahun</th>
+					  </tr>
+					  <tr>
+						<th>2021</th>
+						<th>2020</th>
+						<th>2019</th>
+					  </tr>
+					  <tr>
+						<td id="left-side">Margin Laba Kotor</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Margin Laba Usaha</td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Margin Laba Bersih</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.6747</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Margin EBITDA</td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Rasio lancar</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Rasio Laba (Rugi) terhadap Ekuitas</td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Rasio Laba (Rugi) terhadap Jumlah Aset</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Rasio Laba (Rugi) terhadap Pendapatan</td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Rasio Liabilitas terhadap Ekuitas</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Rasio Liabilitas terhadap Jumlah Aset</td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Rasio Liabilitas terhadap EBITDA</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+						<td>1.2345</td>
+					  </tr>
+					  <tr>
+						<td id="left-side">Tingkat Pengembalian Investasi (Kali)</td>
+						<td>2.3467.562</td>
+						<td>1.984.678</td>
+						<td>2.456.323</td>
+					  </tr>
+				</table>
+            </article>
+		
+		</div>
+		<footer class="art-footer">
+			<a href="#">Home</a> 
+			<a href="#">Help</a>
+			<a href="#">Terms and Conditions</a>
+			<p style="text-align: center;">
+				<span style="font-size:10px;"> Web Development <a href="https://www.linkedin.com/in/wildanmustopa99/" target="_blank" style="font-size:10px;"> by Wildan Mustopa</a> 
+				</span></p>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>

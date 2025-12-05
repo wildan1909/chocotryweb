@@ -1,0 +1,131 @@
+/*
+	project: Design Web Template 
+	Cascade Style Sheets file
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Montserrat, 'Arial Unicode MS', Arial, Helvetica, sans-serif, Sans-Serif; 
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #FBF9F2;
+}
+
+section .imgBx{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section .imgBx:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#a98467,#6c584c,#adc178);
+    z-index: 5;
+    mix-blend-mode: screen;
+}
+section .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .imgBx .logoBx img{
+    display: block;
+    position: relative;
+    size: 100%;
+    top: 10px;
+    left: 10px;
+    width: 15%;
+    height: 15%;
+    align-content: top left;
+}
+section .contentBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+section .contentBx .formBx{
+    width: 50%;
+}
+section .contentBx .formBx h2{
+    color: #6c584c;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom:4px solid #adc178;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+section .contentBx .formBx .inputBx{
+    margin-bottom: 20px;
+}
+section .contentBx .formBx .inputBx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #6c584c;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section .contentBx .formBx .inputBx input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400px;
+    border: 2px solid #6c584c;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #adc178;
+    background: transparent;
+    border-radius: 30px;
+}
+section .contentBx .formBx .inputBx button[type="submit"]{
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #adc178;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+section .contentBx .formBx .inputBx button [type="submit"] :hover{
+    background: #adc178;
+}
+section .contentBx .formBx .remember{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #6c584c;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx p{
+    color: #6c584c;
+}
+section .contentBx .formBx .inputBx p a{
+    color: #adc178;
+}
+

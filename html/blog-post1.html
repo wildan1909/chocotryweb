@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<title>WEB DESIGN Belajar Membuat Tampilan Website</title> 
+	<link rel="stylesheet" href="../css/blog-post.css" media="screen">
+	<style>
+		.mySlides {display:none;}
+	</style>
+
+</head>
+<body>
+    <div id="art-main">
+		<nav class="art-nav">
+			<div class="topmenu">
+				<div class="logo">
+				<a href="../html/main-menu.html">
+				<img src="../gambar/logo2hijau.png" style="max-width: 95% !important; max-height: 95% !important;">
+				</a>
+				</div>
+				<div class="menu-atas">
+				<p>
+				<span><a href="main-menu.html">HOME</a></span>
+				<span><a href="../index.html">LOG IN</a></span>
+				</p>
+				</div>
+				<input type="text" placeholder="Search..">
+			</div>
+		</nav>
+		<div class="art-header">
+			<div class="banner">
+				<img class="mySlides" src="../gambar/1.png" style="width:100%">
+				<img class="mySlides" src="../gambar/3.png" style="width:100%">
+				<img class="mySlides" src="../gambar/4.png" style="width:100%">
+			</div>
+			  
+			  <script>
+			  var myIndex = 0;
+			  carousel();
+			  
+			  function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				  x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 4000); // Change image every 4 seconds
+			  }
+			  </script>
+		</div>
+		<div class="menumid">
+			<ul>
+				<li><a href="main-menu.html">PRODUCT</a></li>
+				<li><a href="gifts.html">GIFTS</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="procedure.html">PROCEDURE</a></li>
+				<li><a href="about-us.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<div class="art-sheet">
+			<article>
+                <h1 class="blog-title"><b>Rayakan Hari Spesialmu dengan Manisnya Chocotry</b></h1>
+                <div class="blog-body">
+					<article class="text-body">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non tincidunt arcu. Curabitur consectetur sed leo vel suscipit. Vestibulum at aliquet leo. Donec placerat elit ipsum. Sed maximus nisi nec sapien dictum, nec tincidunt libero blandit. Vivamus sagittis elit vel ante imperdiet, eget accumsan urna scelerisque. Ut vel blandit eros. Curabitur vestibulum eros eu pretium vulputate. Donec non enim elementum, fermentum magna eu, commodo neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+						<br><br>
+							Nunc nec luctus ex. Donec ornare urna ante, ac faucibus turpis lacinia nec. Suspendisse et libero aliquam, fringilla orci eu, elementum ligula. Maecenas accumsan elit et elementum fringilla. Pellentesque euismod ante vitae felis efficitur, ac sodales metus elementum. Fusce rutrum lacus nulla, eu posuere nunc lobortis in. Pellentesque ornare feugiat volutpat. Pellentesque vel quam quis quam hendrerit consequat nec sit amet est. Sed sit amet efficitur justo, eu semper purus. Donec maximus malesuada molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur convallis laoreet velit, in finibus sapien facilisis eget.
+						</p>
+						
+						<blockquote>
+							<i>
+								<b>Sed eu hendrerit purus. Aliquam eu ante velit. Proin vestibulum, purus at imperdiet consequat, libero augue finibus sapien, lobortis volutpat quam justo et nunc. Morbi sit amet metus ipsum. Quisque nibh dui, ullamcorper sit amet rhoncus nec, condimentum id elit. Suspendisse eget odio diam. Sed consectetur odio arcu, a pretium urna dignissim id. Duis facilisis luctus aliquam. Vivamus vitae nunc cursus, tristique sem vitae, ullamcorper massa. Suspendisse sit amet tincidunt sapien.</b>
+							</i> 
+						</blockquote>
+						<p>
+							Nulla enim ante, elementum semper consectetur sed, dignissim sed dolor. Morbi id turpis blandit, venenatis sapien non, venenatis lacus. Donec quis ornare odio. Praesent condimentum nec ipsum id consequat. Aenean maximus, erat nec convallis faucibus, justo nisi rhoncus nunc, sed sagittis nisl sem eget ligula. Sed neque nunc, consequat et dignissim id, rhoncus iaculis massa. Sed sodales interdum dapibus. Mauris eu tincidunt mi, sed accumsan sem. Cras laoreet eu elit non dapibus. Nunc ornare laoreet nulla semper convallis. Donec ut mattis lacus. Donec sit amet ligula sed sapien semper hendrerit. Donec lacus ex, fringilla et dapibus quis, laoreet vitae ex. Ut viverra diam odio, ac interdum nisl vulputate ut. 
+						<br><br>
+							Praesent hendrerit nisi vitae sapien finibus ultrices. Mauris lacinia posuere justo, in tempus risus rhoncus quis. Cras condimentum enim at neque ornare mattis. Duis odio ex, tincidunt vitae dignissim eget, fringilla nec libero. Cras sodales blandit turpis, et tempor mauris varius non. Sed sodales augue nec turpis posuere luctus. Nam sed suscipit ligula. Sed aliquam elementum neque, at laoreet ipsum. Cras quis lobortis neque. Curabitur ac tincidunt lorem.
+						</p>
+                	</article>
+				<div class="blog-image">
+					<img src="../gambar/menu-11.jpg" alt="">
+				</div>
+			</div>
+			</article>
+		</div>
+		
+		
+
+		<footer class="art-footer">
+			<a href="#">Home</a> 
+			<a href="#">Help</a>
+			<a href="#">Terms and Conditions</a>
+			<p style="text-align: center;">
+				<span style="font-size:10px;"> Web Development <a href="https://www.linkedin.com/in/wildanmustopa99/" target="_blank" style="font-size:10px;"> by Wildan Mustopa</a> 
+				</span></p>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>

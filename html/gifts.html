@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<title>WEB DESIGN Belajar Membuat Tampilan Website</title> 
+	<link rel="stylesheet" href="../css/gifts.css" media="screen">
+	<style>
+		.mySlides {display:none;}
+	</style>
+
+</head>
+<body>
+    <div id="art-main">
+		<nav class="art-nav">
+			<div class="topmenu">
+				<div class="logo">
+				<a href="../html/main-menu.html">
+				<img src="../gambar/logo2hijau.png" style="max-width: 95% !important; max-height: 95% !important;">
+				</a>
+				</div>
+				<div class="menu-atas">
+				<p>
+				<span><a href="main-menu.html">HOME</a></span>
+				<span><a href="../index.html">LOG IN</a></span>
+				</p>
+				</div>
+				<input type="text" placeholder="Search..">
+			</div>
+		</nav>
+		<div class="art-header">
+			<div class="banner">
+				<img class="mySlides" src="../gambar/1.png" style="width:100%">
+				<img class="mySlides" src="../gambar/3.png" style="width:100%">
+				<img class="mySlides" src="../gambar/4.png" style="width:100%">
+			</div>
+			  
+			  <script>
+			  var myIndex = 0;
+			  carousel();
+			  
+			  function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				  x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 4000); // Change image every 4 seconds
+			  }
+			  </script>
+		</div>
+		<div class="menumid">
+			<ul>
+				<li><a href="main-menu.html">PRODUCT</a></li>
+				<li><a href="gifts.html">GIFTS</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="procedure.html">PROCEDURE</a></li>
+				<li><a href="about-us.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<div class="art-sheet">
+			<article>
+				<div id="wrap">
+					<div id="columns" class="columns_5">
+				<figure>
+				<img src="../gambar/gifts-1.jpg">
+					<figcaption>[G111] Choco Package 1</figcaption>
+					<span class="price">Rp 150.000</span>
+					<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+					</figure>
+					
+					<figure>
+					<img src="../gambar/gifts-2.jpg">
+					<figcaption>[G112] Choco Package 2</figcaption>
+					<span class="price">Rp 135.000</span>
+					<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+					</figure>
+					
+				<figure>
+					<img src="../gambar/gifts-3.jpg">
+					<figcaption>[G112] Choco Package 3</figcaption>
+					<span class="price">Rp 100.000</span>
+					<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+					</figure>
+				
+					<figure>
+					<img src="../gambar/gifts-6.jpg">
+					<figcaption>[G113] Choco Small Package</figcaption>
+					<span class="price">Rp 94.000</span>
+					<a class="button" href="#">Buy Now</a>
+					</figure>
+					
+				<figure>
+					<img src="../gambar/gifts-5.jpg">
+					<figcaption>[G114] Choco Custome cake</figcaption>
+					<span class="price">Rp 200.000</span>
+					<a class="button" href="#">Buy Now</a>
+					</figure>
+				</div>
+			</article>
+		</div>
+		
+		
+
+		<footer class="art-footer">
+			<a href="#">Home</a> 
+			<a href="#">Help</a>
+			<a href="#">Terms and Conditions</a>
+			<p style="text-align: center;">
+				<span style="font-size:10px;"> Web Development <a href="https://www.linkedin.com/in/wildanmustopa99/" target="_blank" style="font-size:10px;"> by Wildan Mustopa</a> 
+				</span></p>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>

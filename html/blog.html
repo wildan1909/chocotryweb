@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<title>WEB DESIGN Belajar Membuat Tampilan Website</title> 
+	<link rel="stylesheet" href="../css/blog.css" media="screen">
+	<style>
+		.mySlides {display:none;}
+	</style>
+
+</head>
+<body>
+    <div id="art-main">
+		<nav class="art-nav">
+			<div class="topmenu">
+				<div class="logo">
+				<a href="../html/main-menu.html">
+				<img src="../gambar/logo2hijau.png" style="max-width: 95% !important; max-height: 95% !important;">
+				</a>
+				</div>
+				<div class="menu-atas">
+				<p>
+				<span><a href="main-menu.html">HOME</a></span>
+				<span><a href="../index.html">LOG IN</a></span>
+				</p>
+				</div>
+				<input type="text" placeholder="Search..">
+			</div>
+		</nav>
+		<div class="art-header">
+			<div class="banner">
+				<img class="mySlides" src="../gambar/1.png" style="width:100%">
+				<img class="mySlides" src="../gambar/3.png" style="width:100%">
+				<img class="mySlides" src="../gambar/4.png" style="width:100%">
+			</div>
+			  
+			  <script>
+			  var myIndex = 0;
+			  carousel();
+			  
+			  function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				  x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 4000); // Change image every 4 seconds
+			  }
+			  </script>
+		</div>
+		<div class="menumid">
+			<ul>
+				<li><a href="main-menu.html">PRODUCT</a></li>
+				<li><a href="gifts.html">GIFTS</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="procedure.html">PROCEDURE</a></li>
+				<li><a href="about-us.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<div class="art-sheet">
+			<article>
+				<div class="choco-today">
+					<h1>Choco Hari Ini</h1>
+				</div>
+				<div class="content1"> 
+					<div class="content-image1">
+					</div>
+					<div class="space1"></div>
+					<div class="content-text">
+						<h2 class="content-title"><a href="../html/blog-post1.html"><b>Rayakan Hari Spesialmu dengan Manisnya Chocotry</b></a></h2>
+						<br>
+						<p class="text-preview">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue mollis tristique. Donec porta, leo nec sollicitudin congue, 
+							est justo pellentesque quam, et faucibus lectus dolor eu ex. Proin malesuada cursus placerat. Suspendisse mollis lacus eu tempus pellentesque. 
+							Aliquam nec dui ac augue semper iaculis. Donec semper orci lorem, sed tristique nibh condimentum quis. 
+							Nunc libero dui, semper nec porta et, venenatis vitae arcu. Cras semper enim nec ante consectetur finibus... <a href="../html/blog-post1.html"><b>read more</b></a>						
+						</p>
+					</div>
+				</div>
+				<br>
+				<div class="content2"> 
+					<div class="content-image2">
+					</div>
+					<div class="space2"></div>
+					<div class="content-text">
+						<h2 class="content-title"><b>Musim Panas Gini Enaknya Ngadem Sambil Minum Segelas Es Krim Coklat</b></h2>
+						<br>
+						<p class="text-preview">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue mollis tristique. Donec porta, leo nec sollicitudin congue, 
+							est justo pellentesque quam, et faucibus lectus dolor eu ex. Proin malesuada cursus placerat. Suspendisse mollis lacus eu tempus pellentesque. 
+							Aliquam nec dui ac augue semper iaculis. Donec semper orci lorem, sed tristique nibh condimentum quis. 
+							Nunc libero dui, semper nec porta et, venenatis vitae arcu. Cras semper enim nec ante consectetur finibus... <a href="#"><b>read more</b></a>						
+						</p>
+					</div>
+				</div>
+				<br>
+				<div class="content1"> 
+					<div class="content-image3">
+					</div>
+					<div class="space1"></div>
+					<div class="content-text">
+						<h2 class="content-title"><b>Tau Nggak Si Sob, Ternyata Makan Coklat Dapat <br> Menurunkan Kolesterol Jahat Loh</b></h2>
+						<br>
+						<p class="text-preview">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue mollis tristique. Donec porta, leo nec sollicitudin congue, 
+							est justo pellentesque quam, et faucibus lectus dolor eu ex. Proin malesuada cursus placerat. Suspendisse mollis lacus eu tempus pellentesque. 
+							Aliquam nec dui ac augue semper iaculis. Donec semper orci lorem, sed tristique nibh condimentum quis. 
+							Nunc libero dui, semper nec porta et, venenatis vitae arcu. Cras semper enim nec ante consectetur finibus... <a href="#"><b>read more</b></a>						
+						</p>
+					</div>
+				</div>
+				<br>
+				<div class="content2"> 
+					<div class="content-image4">
+					</div>
+					<div class="space2"></div>
+					<div class="content-text">
+						<h2 class="content-title"><b>Wow! Indonesia menjadi Negara Penghasil Cacao Terbesar Ke-3 Di Dunia</b></h2>
+						<br>
+						<p class="text-preview">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue mollis tristique. Donec porta, leo nec sollicitudin congue, 
+							est justo pellentesque quam, et faucibus lectus dolor eu ex. Proin malesuada cursus placerat. Suspendisse mollis lacus eu tempus pellentesque. 
+							Aliquam nec dui ac augue semper iaculis. Donec semper orci lorem, sed tristique nibh condimentum quis. 
+							Nunc libero dui, semper nec porta et, venenatis vitae arcu. Cras semper enim nec ante consectetur finibus... <a href="#"><b>read more</b></a>						
+						</p>
+					</div>
+				</div>
+				<br>
+			</article>
+		</div>
+		
+		
+
+		<footer class="art-footer">
+			<a href="#">Home</a> 
+			<a href="#">Help</a>
+			<a href="#">Terms and Conditions</a>
+			<p style="text-align: center;">
+				<span style="font-size:10px;"> Web Development <a href="https://www.linkedin.com/in/wildanmustopa99/" target="_blank" style="font-size:10px;"> by Wildan Mustopa</a> 
+				</span></p>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>

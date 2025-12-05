@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<title>WEB DESIGN Belajar Membuat Tampilan Website</title> 
+	<link rel="stylesheet" href="../css/main-menu.css" media="screen">
+	<style>
+		.mySlides {display:none;}
+	</style>
+
+</head>
+<body>
+    <div id="art-main">
+		<nav class="art-nav">
+			<div class="topmenu">
+				<div class="logo">
+				<a href="../html/main-menu.html">
+				<img src="../gambar/logo2hijau.png" style="max-width: 95% !important; max-height: 95% !important;">
+				</a>
+				</div>
+				<div class="menu-atas">
+				<p>
+				<span><a href="main-menu.html">HOME</a></span>
+				<span><a href="../index.html">LOG IN</a></span>
+				</p>
+				</div>
+				<input type="text" placeholder="Search..">
+			</div>
+		</nav>
+		<div class="art-header">
+			<div class="banner">
+				<img class="mySlides" src="../gambar/1.png" style="width:100%">
+				<img class="mySlides" src="../gambar/3.png" style="width:100%">
+				<img class="mySlides" src="../gambar/41.png" style="width:100%">
+			</div>
+			  
+			  <script>
+			  var myIndex = 0;
+			  carousel();
+			  
+			  function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				  x[i].style.display = "none";  
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+				setTimeout(carousel, 4000); // Change image every 4 seconds
+			  }
+			  </script>
+		</div>
+		<div class="menumid">
+			<ul>
+				<li><a href="main-menu.html">PRODUCT</a></li>
+				<li><a href="gifts.html">GIFTS</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="procedure.html">PROCEDURE</a></li>
+				<li><a href="about-us.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<div class="art-sheet">
+			<article>
+					<div id="wrap">
+						<div id="columns" class="columns_5">
+					<figure>
+					<img src="../gambar/menu-1.jpg">
+						<figcaption>[P111] Choco Sweet Cream</figcaption>
+						<span class="price">Rp 19.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+						
+						<figure>
+						<img src="../gambar/menu-2.jpg">
+						<figcaption>[P112] Big Choco Milk</figcaption>
+						<span class="price">Rp 22.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+						
+					<figure>
+						<img src="../gambar/menu-3.jpg">
+						<figcaption>[P113] Sweet Choco Velvet</figcaption>
+						<span class="price">Rp 22.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+					
+						<figure>
+						<img src="../gambar/menu-4.jpg">
+						<figcaption>[P114] Small Choco Milk</figcaption>
+						<span class="price">Rp 16.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+						
+					<figure>
+						<img src="../gambar/menu-7.jpg">
+						<figcaption>[P115] Choco Macaroon</figcaption>
+						<span class="price">Rp 25.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+						
+					<figure>
+						<img src="../gambar/menu-8.jpg">
+						<figcaption>[P116] Choco Latte</figcaption>
+						<span class="price">Rp 19.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+					
+						<figure>
+						<img src="../gambar/menu-9.jpg">
+						<figcaption>[P117] Hot Chocolate</figcaption>
+						<span class="price">Rp 20.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>	
+					
+					<figure>
+						<img src="../gambar/menu-10.jpg">
+						<figcaption>[P118] Choco Cake</figcaption>
+						<span class="price">Rp 17.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+					
+						<figure>
+						<img src="../gambar/menu-11.jpg">
+						<figcaption>[P119] Choco Cheesecake</figcaption>
+						<span class="price">Rp 20.000</span>
+						<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>	
+	
+					<figure>
+							<img src="../gambar/menu-12.jpg">
+							<figcaption>[P120] Sweet Strawberry Chococake</figcaption>
+							<span class="price">Rp 25.000</span>
+							<a class="button" href="https://whatsform.com/vFPk1o">Buy Now</a>
+						</figure>
+					</div>
+			</article>
+		</div>
+		
+		
+
+		<footer class="art-footer">
+			<a href="#">Home</a> 
+			<a href="#">Help</a>
+			<a href="#">Terms and Conditions</a>
+			<p style="text-align: center;">
+				<span style="font-size:10px;"> Web Development <a href="https://www.linkedin.com/in/wildanmustopa99/" target="_blank" style="font-size:10px;"> by Wildan Mustopa</a> 
+				</span></p>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>
